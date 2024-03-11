@@ -1,0 +1,55 @@
+/* Estilos generales */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Color de fondo suave */
+   }
+   
+   .login-form {
+    width: 300px; /* Ancho del formulario */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 10px; /* Bordes redondeados */
+   }
+   
+   .login-form img {
+    display: block;
+    margin: 0 auto 20px; /* Centrado y espacio debajo */
+   }
+   
+   .login-form .form-group {
+    margin-bottom: 15px;
+   }
+   
+   .login-form label {
+    font-weight: 600; /* Texto en negrita */
+   }
+   
+   .login-form input {
+    border: 1px solid #ced4da; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+   }
+   
+   .login-form button {
+    background-color: #007bff; /* Color azul */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+    width: 100%;
+    font-weight: 600; /* Texto en negrita */
+   }
+   
+   .login-form button:disabled {
+    background-color: #6c757d; /* Color gris */
+    cursor: not-allowed; /* Indicador de no interactivo */
+   }
+   
+   .login-form .alert {
+    border-radius: 5px; /* Bordes redondeados */
+   }
+   
